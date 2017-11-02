@@ -1,0 +1,124 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "286c0cd0174c700b026e7d0f10f92b3d",
+    "content-hash": "549e50ef5f66e6e3caafa191ab345dd3",
+    "packages": [
+        {
+            "name": "studyportals/cache",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studyportals/Cache.git",
+                "reference": "8227b3c0c1831441379b7cb969a1b4ad7b78c005"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studyportals/Cache/zipball/8227b3c0c1831441379b7cb969a1b4ad7b78c005",
+                "reference": "8227b3c0c1831441379b7cb969a1b4ad7b78c005",
+                "shasum": ""
+            },
+            "require": {
+                "studyportals/exception": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StudyPortals\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob van den Hout",
+                    "email": "vdhout@studyportals.com"
+                }
+            ],
+            "description": "Cache engines for studyportals",
+            "time": "2017-11-02 13:32:25"
+        },
+        {
+            "name": "studyportals/exception",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studyportals/Exception.git",
+                "reference": "e6529dc4743ec4c249773be285e0ea386bcdb867"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studyportals/Exception/zipball/e6529dc4743ec4c249773be285e0ea386bcdb867",
+                "reference": "e6529dc4743ec4c249773be285e0ea386bcdb867",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StudyPortals\\Exception\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob van den Hout",
+                    "email": "vdhout@studyportals.com"
+                }
+            ],
+            "description": "Default exceptions and ExceptionHandler for studyportals",
+            "time": "2017-11-02 11:13:20"
+        },
+        {
+            "name": "studyportals/sql",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studyportals/SQL.git",
+                "reference": "40350388b8f4540ddb8a782e8b54f9af06b1d200"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studyportals/SQL/zipball/40350388b8f4540ddb8a782e8b54f9af06b1d200",
+                "reference": "40350388b8f4540ddb8a782e8b54f9af06b1d200",
+                "shasum": ""
+            },
+            "require": {
+                "studyportals/exception": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StudyPortals\\SQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob van den Hout",
+                    "email": "vdhout@studyportals.com"
+                }
+            ],
+            "description": "SQL classes for studyportals",
+            "time": "2017-11-02 16:00:38"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

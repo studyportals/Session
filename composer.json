@@ -1,0 +1,23 @@
+{
+    "name": "studyportals/session",
+    "description": "Session engine for studyportals",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rob van den Hout",
+            "email": "vdhout@studyportals.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "StudyPortals\\Session\\": "src/"
+        }
+    },
+    "require": {
+        "studyportals/cache": "^1.0",
+        "studyportals/sql": "^1.0"
+    }
+}
