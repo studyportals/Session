@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "286c0cd0174c700b026e7d0f10f92b3d",
-    "content-hash": "549e50ef5f66e6e3caafa191ab345dd3",
+    "hash": "186ca89aad5981433c0dcf1ca282f9c2",
+    "content-hash": "ba31902a62b978b3cc581fd9977323a9",
     "packages": [
         {
             "name": "studyportals/cache",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studyportals/Cache.git",
-                "reference": "8227b3c0c1831441379b7cb969a1b4ad7b78c005"
+                "reference": "f24264b18bea49e97fa8a630cdda595d5b026600"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studyportals/Cache/zipball/8227b3c0c1831441379b7cb969a1b4ad7b78c005",
-                "reference": "8227b3c0c1831441379b7cb969a1b4ad7b78c005",
+                "url": "https://api.github.com/repos/studyportals/Cache/zipball/f24264b18bea49e97fa8a630cdda595d5b026600",
+                "reference": "f24264b18bea49e97fa8a630cdda595d5b026600",
                 "shasum": ""
             },
             "require": {
-                "studyportals/exception": "^1.0"
+                "studyportals/exception": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -41,20 +41,20 @@
                 }
             ],
             "description": "Cache engines for studyportals",
-            "time": "2017-11-02 13:32:25"
+            "time": "2017-11-27 10:50:39"
         },
         {
             "name": "studyportals/exception",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studyportals/Exception.git",
-                "reference": "e6529dc4743ec4c249773be285e0ea386bcdb867"
+                "reference": "77d9c717df185a5ea3438e861a0c0524b07f88f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studyportals/Exception/zipball/e6529dc4743ec4c249773be285e0ea386bcdb867",
-                "reference": "e6529dc4743ec4c249773be285e0ea386bcdb867",
+                "url": "https://api.github.com/repos/studyportals/Exception/zipball/77d9c717df185a5ea3438e861a0c0524b07f88f5",
+                "reference": "77d9c717df185a5ea3438e861a0c0524b07f88f5",
                 "shasum": ""
             },
             "type": "library",
@@ -74,24 +74,24 @@
                 }
             ],
             "description": "Default exceptions and ExceptionHandler for studyportals",
-            "time": "2017-11-02 11:13:20"
+            "time": "2017-11-27 10:29:50"
         },
         {
             "name": "studyportals/sql",
-            "version": "v1.0.1",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studyportals/SQL.git",
-                "reference": "40350388b8f4540ddb8a782e8b54f9af06b1d200"
+                "reference": "4f038ced9a3738c1d4ad562f93547812931d9ed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studyportals/SQL/zipball/40350388b8f4540ddb8a782e8b54f9af06b1d200",
-                "reference": "40350388b8f4540ddb8a782e8b54f9af06b1d200",
+                "url": "https://api.github.com/repos/studyportals/SQL/zipball/4f038ced9a3738c1d4ad562f93547812931d9ed4",
+                "reference": "4f038ced9a3738c1d4ad562f93547812931d9ed4",
                 "shasum": ""
             },
             "require": {
-                "studyportals/exception": "^1.0"
+                "studyportals/exception": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -110,7 +110,7 @@
                 }
             ],
             "description": "SQL classes for studyportals",
-            "time": "2017-11-02 16:00:38"
+            "time": "2017-11-27 12:45:42"
         }
     ],
     "packages-dev": [],
